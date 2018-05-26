@@ -1,0 +1,79 @@
+
+body {
+
+}
+
+header {}
+
+
+
+.statusbar {}
+
+.arrow {}
+
+.nav {}
+
+.container {
+
+}
+.bus-list{
+
+}
+
+.direction {
+  color: rgba(0,0,0,10);
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.blue-box {
+    background-color: rgba(0,41,87,100);
+    display: block:inline-block;
+    width: 100%;
+
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 10px;
+  }
+
+
+li#green{
+    background-color: rgba(76,217,100,1);
+}
+
+
+li#bright {
+  background-color: rgba(0,122,255,1);
+}
+
+
+span{    /** Should cover the top small line of text**/
+
+
+}
+
+li {     /** should cover the line,dest., and frequency**/
+    font-family: "SF Pro Text", "Roboto", sans-serif;
+    font-size: 18px;
+    color: rgba(255,255,255,1);
+
+
+}
+ul.topline {
+  font-size: 10;
+  font-weight: 100;
+}
+
+li.top {
+
+}
+
+
+.bottom-line{
+  display: block:inline-block;
+}
