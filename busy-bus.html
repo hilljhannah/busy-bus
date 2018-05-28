@@ -4,115 +4,78 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
+    <div class="container">
     <header>
-      <div class="statusbar"></div>
-      <div class="arrow"></div>
-      <h1>Washington & State</h1>
-      <div class="next-bus">The next bus to<span id="featured-dest"> Navy Pier </span>is arriving in <span id="bold"> 3 </span>min</div>
+      <div class="statusbar"><img src="/images/statusbar.png"></div>
+      <div class="arrow"><img src="/images/arrow.png"></div>
+      <div class="stop-name"><h1>Washington & State</h1></div>
     </header>
+    <div class="blue-bar">The next bus to<span class="featured-dest"> Navy Pier </span>is arriving in <span class="bold"> 3 </span>min</div>
     <ul class="bus-list">
       <div>
 
-
-        <h3>Eastbound</h3>
+        <div class="direction"><h2>Eastbound</h2></div>
 
 
         <li class="blue-box">
-          <h4>Next bus:<span class="top"> 18 minutes</span></h4>
-          <p class="arrives">Arrives every:</p>
-          <p class="large">60</p>
-          <h2>Randolph/Harbor Dr</h2>
-          <p>20<p class="minutes">minutes</p></p>
+          <div class="float-left"><h3>Next bus:<span class="next"> 18 minutes</span></h3> <p class="line">60 <span class="extra-space">Randolph/Harbor Dr</span></p></div>
+          <div class="float-right">  <p class="arrives">Arrives every: <br/><span id="frequency">20</span> <span id="minutes">minutes</span></p></div>
         </li>
 
         <li class="blue-box">
-          <h4>Next bus:<span class="top"> 18 minutes</span></h4>
-          <p class="arrives">Arrives every:</p>
-          <p class="large">124</p>
-          <h2>Navy Pier</h2>
-          <p>10<p class="minutes">minutes</p></p>
+          <div class="float-left"><h3>Next bus:<span class="next"> 3 minutes</span></h3> <p class="line">124 <span class="extra-space">Navy Pier</span></p></div>
+          <div class="float-right">  <p class="arrives">Arrives every: <br/><span id="frequency">10</span> <span id="minutes">minutes</span></p></div>
         </li>
 
 
 
-          <h3>Northbound</h3>
+        <div class="direction"><h2>Northbound</h2></div>
+
+        <li class="blue-box">
+          <div class="float-left"><h3>Next bus:<span class="next"> 15 minutes</span></h3> <p class="line">151 <span class="extra-space">Devon/Clark</span></p></div>
+          <div class="float-right">  <p class="arrives">Arrives every: <br/><span id="frequency">16</span> <span id="minutes">minutes</span></p></div>
+        </li>
 
 
-
-          <li class="blue-box">
-            <h4>Next bus:<span class="top"> 15 minutes</span></h4>
-            <p class="arrives">Arrives every:</p>
-            <p class="large">151</p>
-            <h2>Devon/Clark</h2>
-            <p>16<p class="minutes">minutes</p></p>
-          </li>
+        <div class="direction"><h2>Southbound</h2></div>
 
 
+        <li class="blue-box">
+          <div class="float-left"><h3>Next bus:<span class="next"> 10 minutes</span></h3> <p class="line">J14 <span class="extra-space">103rd/Stony Island</span></p></div>
+          <div class="float-right">  <p class="arrives">Arrives every: <br/><span id="frequency">15</span> <span id="minutes">minutes</span></p></div>
+        </li>
 
-          <h3>Southbound</h3>
+        <li class="blue-box">
+          <div class="float-left"><h3>Next bus:<span class="next"> 5 minutes</span></h3> <p class="line">124 <span class="extra-space">Navy Pier</span></p></div>
+          <div class="float-right">  <p class="arrives">Arrives every: <br/><span id="frequency">10</span> <span id="minutes">minutes</span></p></div>
+        </li>
 
+        <div class="direction"><h2>Reroute</h2></div>
 
-
-          <li class="blue-box">
-            <h4>Next bus:<span class="top"> 10 minutes</span></h4>
-            <p class="arrives">Arrives every:</p>
-            <p class="large">J14</p>
-            <h2>103rd/Stony Island</h2>
-            <p>15<p class="minutes">minutes</p></p>              </li>
-
-              <li class="blue-box">
-                <h4>Next bus:<span class="top"> 5 minutes</span></h4>
-                <p class="arrives">Arrives every:</p>
-                <p class="large">124</p>
-                <h2>Navy Pier</h2>
-                <p>10<p class="minutes">minutes</p></p>
-              </li>
+        <li id="green" class="blue-box">
+          <div class="float-left"><h3 id="gr">Next bus:<span class="next-gr"> 11 minutes</span></h3> <p class="line-gr">6x <span class="extra-space">Jackson Park Express</span></p></div>
+          <div class="float-right">  <p class="arrives-gr">Arrives every: <br/><span id="frequency-gr">15</span> <span id="minutes-gr">minutes</span></p></div>
+        </li>
 
 
+        <div class="direction"><h2>Out of Service</h2></div>
 
-              <h3>Reroute</h3>
+        <li id="bright" class="blue-box">
+          <div class="float-left"><h3 id="b">Next bus:<span class="next-b"> n/a </span></h3> <p class="line">4 <span class="extra-space">Cottage Grove</span></p></div>
+          <div class="float-right">  <p class="arrives-b">Resumes at: <br/><span id="frequency">12:10</span> <span id="minutes">am</span></p></div>
+        </li>
 
+        <li id="bright" class="blue-box">
+          <div class="float-left"><h3 id="b">Next bus:<span class="next-b"> n/a </span></h3> <p class="line">20 <span class="extra-space">Madison</span></p></div>
+          <div class="float-right">  <p class="arrives-b">Resumes at: <br/><span id="frequency">12:10</span> <span id="minutes">am</span></p></div>
+        </li>
 
+        <li id="bright" class="blue-box">
+          <div class="float-left"><h3 id="b">Next bus:<span class="next-b"> n/a </span></h3> <p class="line">157 <span class="extra-space">Streeterville/Taylor</span></p></div>
+          <div class="float-right">  <p class="arrives-b">Resumes at: <br/><span id="frequency">6:00</span> <span id="minutes">am</span></p></div>
+        </li>
 
-              <li id="green" class="blue-box">
-                <h4 id="gr">Next bus:<span class="top-gr"> 11 minutes</span></h4>
-                <p class="arrives-gr">Arrives every:</p>
-                <p class="large-gr">6x</p>
-                <h2 id="g">Jackson Park Express</h2>
-                <p id="pg">15<p class="minutes-gr">minutes</p></p>
-              </li>
-
-
-              <h3>Out of Service</h3>
-
-
-              <li id="bright" class="blue-box">
-                <h4 id="b">Next bus:<span class="top-b"> n/a</span></h4>
-                <p class="arrives-b">resumes at:</p>
-                <p class="large">4</p>
-                <h2>Cottage Grove</h2>
-                <p>12:10<p class="minutes">am</p></p>
-              </li>
-
-              <li id="bright" class="blue-box">
-                <h4 id="b">Next bus:<span class="top-b"> n/a</span></h4>
-                <p class="arrives-b">resumes at:</p>
-                <p class="large">20</p>
-                <h2>Madison</h2>
-                <p>12:10<p class="minutes">am</p></p>
-              </li>
-
-              <li id="bright" class="blue-box">
-                <h4 id="b">Next bus:<span class="top-b"> n/a</span></h4>
-                <p class="arrives-b">resumes at:</p>
-                <p class="large">157</p>
-                <h2>Streeterville/Taylor</h2>
-                <p>6:00<p class="minutes">am</p></p>
-              </li>
-
-
-
-            </div>
-          </ul>
-        </section>
-      </body>
+      </div>
+    </ul>
+  </section>
+</div>
