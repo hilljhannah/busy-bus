@@ -47,7 +47,7 @@ h1 {
 h2 {
   font-size: 1.1em;
   color: rgba(0,0,0,1);  /** black **/
-  font-weight: 600;
+  font-weight: 700;
 }
 h3 {
   font-size: .7em;
@@ -151,20 +151,20 @@ li#bright {
   font-size: 1.2em;
   color: rgba(255,255,255,1); /** white **/
   font-weight: 100;
-  padding-top: 5px;
+  padding-top: 8px;
 }
 
 .line-gr {
   font-size: 1.2em;
   color: rgba(0,0,0,1);  /** black **/
-  padding-top: 5px;
+  padding-top: 8px;
 }
 
 .extra-space{padding-left: 15px;}
 
 .float-right{
   float: right;
-  padding-bottom: 10px;
+
 }
 
 .arrives {
@@ -186,17 +186,17 @@ li#bright {
 #frequency {
   font-size: 1.8em;
   color: white;
-
+  line-height: 32px;
 
 }
 #frequency-gr {
   font-size: 1.8em;
   color:  rgba(0,0,0,1);
+    line-height: 32px;
 }
 #minutes {
   color: rgba(255,255,255,1);
   padding-left: 5px;
-  padding-top: 10px;
 }
 
 span#minutes-gr {
