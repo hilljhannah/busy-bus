@@ -1,6 +1,7 @@
 # busy-bus is a live prototype for a concept public transit app designed and coded by me.
 
-[Original Mockup - Clean but didnt provide the user with enough information](https://raw.githubusercontent.com/hilljhannah/busy-bus/screenshots/Busy-bus-design-prototype-1.jpg)   
+[Original Mockup - Clean but didnt provide the user with enough information]
+(https://raw.githubusercontent.com/hilljhannah/busy-bus/screenshots/Busy-bus-design-prototype-1.jpg)   
 
 First Revision - Added directional headers to sort the busses and highlight the ones out of service
 (busy-bus/design process/Busy-bus-design-prototype-2.jpg)
