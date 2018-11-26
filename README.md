@@ -7,7 +7,7 @@ Original Mockup - Clean but didnt provide the user with enough information
 
 First Revision - Added directional headers to sort the busses and highlight the ones out of service
   
-    busy-bus/design process/Busy-bus-design-prototype-2.jpg)
+    busy-bus/design process/Busy-bus-design-prototype-2.jpg
     
 
 Second Revision - The previous headers made the screen too crowded so I removed the boxes around the header text
